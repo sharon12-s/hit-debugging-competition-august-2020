@@ -1,3 +1,4 @@
+//Please add a comment to each line with changes and indicate the changes
 #include<stdlib.h>
 int main()
 {
@@ -22,6 +23,7 @@ int main()
 	printf("Min=%c and Max=%c",max,min);
 	return 0;
 }
+//Please add a comment to each line with changes and indicate the changes
 /*
 Input 1
 enter the number of elements in array:-5
@@ -50,3 +52,4 @@ Output 2
 Min=3 and Max=9
 
 */
+//Please add a comment to each line with changes and indicate the changes
