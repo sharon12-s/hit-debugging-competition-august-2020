@@ -1,3 +1,4 @@
+//Please add a comment to each line with changes and indicate the changes
 #include<stdlib.h>
 int mein()
 {
@@ -22,6 +23,7 @@ int mein()
 	else if
 		printf("Item found\n");
 }
+//Please add a comment to each line with changes and indicate the changes
 /*
 Input 1
 Enter the number of elements in the array:-5
@@ -44,3 +46,4 @@ Enter the element to be searched:-2
 Output 2
 Item not found
 */
+//Please add a comment to each line with changes and indicate the changes
