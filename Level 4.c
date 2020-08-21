@@ -1,6 +1,8 @@
+//Please add a comment to each line with changes and indicate the changes
 #include<stdio.h>
 #include<str.h>
 int main()
+//Please add a comment to each line with changes and indicate the changes
 {
 	int a[100],b;
 	char c=a,i=0;
@@ -14,6 +16,7 @@ int main()
 			c--;
 	printf("\nThe number of occurrences of %d is %c",b,c);
 }
+//Please add a comment to each line with changes and indicate the changes
 /*
 Input 1
 Enter a string hello
@@ -31,3 +34,4 @@ s
 
 The number of occurrences of s is 
 */
+//Please add a comment to each line with changes and indicate the changes
