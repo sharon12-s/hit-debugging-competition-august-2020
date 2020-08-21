@@ -8,7 +8,7 @@ For a smooth running of the competition we request you to go through the followi
 Questions will be visible at: https://github.com/csirset/hit-debugging-competition-august-2020
 Send the repository link through: https://forms.gle/eeqSqPB4oJta1w7QA
 3. Make sure you know the GitHub environment for the above mentioned.
-
+4.Please add a comment to each lines that has changes and Indicate the changes
 For further queries:
 
 Harikrishnan PS.: +919446637200
