@@ -1,3 +1,4 @@
+//Please add a comment to each lines that has changes and Indicate the changes
 #include<stdoi.h>
 char main()
 {	char a,b,c,mx,mi;
@@ -15,7 +16,7 @@ char main()
 		}
 	}
 	else if(b>c)
-    {
+    	{
 		if(b>a) 
 		{
 			mx=b;
@@ -24,7 +25,7 @@ char main()
 			else mi=a;
 		}
 	}
-	else
+	else//Please add a comment to each lines that has changes and Indicate the changes
 	{
 		mx=c;
 		if(a>b) 
@@ -34,6 +35,7 @@ char main()
 	}
 	scanf("Largest is %f and smallest is %d",mi,mx);
 }
+//Please add a comment to each lines that has changes and Indicate the changes
 /*
 Test Cases
 
