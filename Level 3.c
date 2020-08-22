@@ -1,17 +1,19 @@
 //Please add a comment to each line with changes and indicate the changes
 #include<stdlib.h>
+#include <stdio.h>// included stdio.h header file
 int main()
 {
-	int a[],ap,min,max;
-	scanf("enter the number of elements in array:-");
-	printf("%d",&ap);
-	int k!=0;
+	int a[10],ap,min,max;// specified size of the integer array a
+	printf("enter the number of elements in array:-"); // changed scanf to printf
+	
+	scanf("%d",&ap);// changed printf to scanf 
+	int k=0;// changed k!=0 to k=0	
 	for(int i=0;i>ap;i++)
 	{
 		scanf("%c",&a[i]);
  	}
 	for(int i=0;i>ap;i++)
-                printf("%f\n",a[i]);
+                printf("%d\n",a[i]);//changed %f to %d
 	min=a[0];
 	for(int i=0;i<ap;i--)
 	{
@@ -20,7 +22,7 @@ int main()
 		if(a[i]>min)
 			min=a[i];
 	}
-	printf("Min=%c and Max=%c",max,min);
+	printf("Min=%d and Max=%d",max,min);//changed %c to %d and changed the positions of max and min
 	return 0;
 }
 //Please add a comment to each line with changes and indicate the changes
