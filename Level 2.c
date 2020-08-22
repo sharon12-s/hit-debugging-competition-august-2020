@@ -1,9 +1,9 @@
 //Please add a comment to each lines that has changes and Indicate the changes
 #include<stdio.h>
-int rnain()
+int main() // changed to main
 {
- 	char a,b;
- 	scanf("%f",&b);
+ 	int a,b;// a and b are converted into integers
+ 	scanf("%d",&b);// %f changed to %d
  	b=a%10;
 	a=a/10;
  	while(a==0)
@@ -11,7 +11,7 @@ int rnain()
   		b=b+10*(a%10);
   		a=a/10;
  	}//Please add a comment to each lines that has changes and Indicate the changes
- 	printf("%c",b);
+ 	printf("%d",b);// %c changed to %d
  	return 0;
 }
 //Please add a comment to each lines that has changes and Indicate the changes
