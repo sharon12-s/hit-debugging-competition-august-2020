@@ -1,15 +1,15 @@
 //Please add a comment to each line with changes and indicate the changes
 #include<stdio.h>
-#include<str.h>
+#include<string.h>// changed to string.h
 int main()
 //Please add a comment to each line with changes and indicate the changes
 {
 	int a[100],b;
-	char c=a,i=0;
+	char c,i=0;//changed char  c=a to char c
 	printf("Enter a string ");
-	scanf("%ni",a);
+	scanf("%d",a);//changed %c to %d
 	printf("Enter a character to count ");
-        scanf("%d",&b);
+        scanf("%d",&c);//changed &b to &c
 	printf("%d\n",b);
 	for(i=0;i<strsize(a);i++)
 		if(a[i]==b)
