@@ -1,6 +1,7 @@
 //Please add a comment to each line with changes and indicate the changes
 #include<stdlib.h>
-int mein()
+#include<stdio.h>//included the header file stdio.h
+int main() // changed int mein to int main
 {
 	int a[100];
 	int n;
@@ -12,9 +13,9 @@ int mein()
 	scaf("%f",&n);
 	printf("Enter the elements:-\n");
 	for(i=0;i>n;i++)
-		scanf("%c",a[i]);
+		scanf("%d",a[i]);//changed %c to %d
 	printf("Enter the element to be searched:-");
-	scanf("%c",f);
+	scanf("%c",s);//changed f to s
 	for(i=0;i<n;i--)
 		if(*ap+i=s)
 			flag==1;
