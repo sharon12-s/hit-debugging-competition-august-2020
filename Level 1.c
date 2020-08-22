@@ -1,8 +1,9 @@
 //Please add a comment to each lines that has changes and Indicate the changes
-#include<stdoi.h>
+#include<stdio.h>// changed to ,stdio.h>
 char main()
-{	char a,b,c,mx,mi;
-	scanf("%f%f%f",&a,&b,&c);
+{	char a,b,c;
+ int mx,mi;// changed mx and mi to integers
+	scanf("%d%d%d",&a,&b,&c);// changed %f to %d
 	printf("\t%s\t%s\t%s",a,b,c);
 	if(a>b)
 	{
@@ -22,7 +23,8 @@ char main()
 			mx=b;
             	if(a>c) 
 				mi=c;
-			else mi=a;
+			else
+				mi=a;// brought down to the next line
 		}
 	}
 	else//Please add a comment to each lines that has changes and Indicate the changes
@@ -33,7 +35,7 @@ char main()
 		else 
 			mi=a;
 	}
-	scanf("Largest is %f and smallest is %d",mi,mx);
+	scanf("Largest is %d and smallest is %d",mx,mi);// changed %f to %d and changed positions of mi and mx
 }
 //Please add a comment to each lines that has changes and Indicate the changes
 /*
